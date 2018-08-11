@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1533427582 source:c:\semester-5 programs\operating systems\sequence_equation\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

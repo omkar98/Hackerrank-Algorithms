@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1533578964 source:c:\semester-5 programs\operating systems\sherlock\main.cpp
+	<iostream>
+	<numeric>
+

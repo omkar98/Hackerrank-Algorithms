@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    long long n,k,i=0,j=0,sum=0,count1=0;
+    cin>>n>>k;
+    long long prices[n];
+    for(i=0;i<n;i++)
+    {
+        int a;
+        cin>>a;
+        if(a<k)
+        {
+            prices[j]=a;
+            j++;
+        }
+    }
+    sort(prices,prices+n);
+    for(i=0;i<j;i++)
+    {
+        sum=sum+prices[i];
+        if(sum<=k) count1++;
+        else break;
+    }
+    cout<<count1;
+    return 0;
+}

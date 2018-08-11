@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1533652355 source:c:\semester-5 programs\operating systems\jim_and_the_orders\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
